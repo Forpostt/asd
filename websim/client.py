@@ -13,10 +13,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from constants import alpha_stats
+from websim.constants import alpha_stats
 
 
-class WebSim(object):
+class WebSimClient(object):
 
     def __init__(self, implicitly_wait=60):
         self.driver = webdriver.Firefox()

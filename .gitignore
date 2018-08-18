@@ -3,3 +3,12 @@
 
 # Drivers for selenium
 webdrivers/
+
+# Jupyter notebooks
+*.ipynb
+
+# Firefox webdriver's logs
+geckodriver.log
+
+# __pycache__
+websim/__pycache__/
